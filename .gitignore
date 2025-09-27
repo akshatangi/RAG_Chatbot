@@ -1,0 +1,101 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+*.db
+
+# --------------------------
+# Environments
+# --------------------------
+.env
+.venv/
+conversational_env/
+venv/
+ENV/
+env/
+*.env
+*.env.*
+
+# --------------------------
+# IDEs and Editors
+# --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --------------------------
+# OS Files
+# --------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --------------------------
+# Output folders
+# --------------------------
+/preprocessed/
+*.csv
+*.tsv
+
+/embeddings/
+*.pkl
+
+/vector_db/
+*.index
+*.json
+*.faiss
+*.hnsw
+
+# --------------------------
+# Streamlit / Frontend
+# --------------------------
+frontend/__pycache__/
+frontend/.streamlit/secrets.toml
+frontend/.streamlit/config.toml
+
+# --------------------------
+# Jupyter (if used)
+# --------------------------
+.ipynb_checkpoints
+
+# --------------------------
+# Test and temp files
+# --------------------------
+*.tmp
+*.temp
+tests/__pycache__/
+
+# --------------------------
+# Security
+# --------------------------
+openai_key.txt
+secrets.json
+config.json
+credentials.json
+*.key
+*.pem
+
+# --------------------------
+# Docker (optional)
+# --------------------------
+*.dockerfile
+Dockerfile
+.dockerignore
+*.tar
+
+nltk_data/
+data/*
