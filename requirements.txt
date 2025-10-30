@@ -1,20 +1,20 @@
 # Core backend
-fastapi==0.104.0
-uvicorn==0.23.2
-python-multipart==0.0.6  # for file uploads
+fastapi
+uvicorn
+python-multipart  # for file uploads
 
 # Embeddings and vector DB
-faiss-cpu==1.7.4
-sentence-transformers==2.2.2
-openai==0.27.9
+faiss-cpu
+sentence-transformers
+openai
 
 
 # Data processing
-pandas==2.1.1
-numpy==1.26.0
-pdfplumber==0.9.0
-docx2txt==0.8
-python-magic==0.4.27 
+pandas
+numpy
+pdfplumber
+docx2txt
+python-magic
 python-docx 
 PyPDF2 
 nltk
@@ -35,3 +35,6 @@ nltk==3.8.1
 spacy==3.6.1
 transformers==4.34.0
 tqdm==4.66.0  # for progress bars during preprocessing
+
+#Retrieval
+faiss-cpu==1.7.4

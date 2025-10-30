@@ -99,3 +99,8 @@ Dockerfile
 
 nltk_data/
 data/*
+
+
+/keytesting.py
+/geminitest.py
+/generate.py
