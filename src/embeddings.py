@@ -18,6 +18,7 @@ CHUNK_COLUMN = "text"  # Name of the column in your CSV containing text
 # ------------------------------
 print(f"[+] Loading embedding model: {MODEL_NAME}")
 model = SentenceTransformer(MODEL_NAME)
+EMBED_MODEL = model  # Export for use in other modules
 
 # ------------------------------
 # Ensure embeddings folder exists
